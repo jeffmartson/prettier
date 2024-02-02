@@ -80,7 +80,7 @@
     "meriyah": "4.3.9",
     "micromatch": "4.0.5",
     "minimist": "1.2.8",
-    "n-readlines": "1.0.1",
+    "n-readlines": "1.0.3",
     "outdent": "0.8.0",
     "parse-json": "8.1.0",
     "please-upgrade-node": "3.2.0",

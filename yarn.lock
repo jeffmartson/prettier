@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
@@ -4447,9 +4447,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A^2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -6700,10 +6700,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"n-readlines@npm:1.0.1":
-  version: 1.0.1
-  resolution: "n-readlines@npm:1.0.1"
-  checksum: 4f0ddcd26347040eb219d8fc8c3620ce086095a355e64791298822b5882fdd646d69b733f6c519bcadc5c64f540e8f13a399e39cfb22e80e25a16000eca7572e
+"n-readlines@npm:1.0.3":
+  version: 1.0.3
+  resolution: "n-readlines@npm:1.0.3"
+  checksum: 8/d098ee8cda91d6fe0b2d6fe599a9bc28ac1856e85922c1354b70455ad444328493932124e98ce703ace05c4d556e3873c34138d136afbe1b854757807ab265de
   languageName: node
   linkType: hard
 
@@ -7381,129 +7381,129 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "prettier@workspace:."
   dependencies:
-    "@angular/compiler": "npm:17.0.2"
-    "@babel/code-frame": "npm:7.23.5"
-    "@babel/generator": "npm:7.23.6"
-    "@babel/parser": "npm:7.23.9"
-    "@babel/types": "npm:7.23.9"
-    "@eslint/eslintrc": "npm:3.0.0"
-    "@eslint/js": "npm:8.56.0"
-    "@glimmer/reference": "npm:0.87.1"
-    "@glimmer/syntax": "npm:0.87.1"
-    "@iarna/toml": "npm:2.2.5"
-    "@prettier/is-es5-identifier-name": "npm:0.2.0"
-    "@prettier/parse-srcset": "npm:3.1.0"
-    "@stylistic/eslint-plugin-js": "npm:1.5.3"
-    "@types/eslint__js": "npm:8.42.3"
-    "@types/estree": "npm:1.0.5"
-    "@types/file-entry-cache": "npm:5.0.4"
-    "@types/find-cache-dir": "npm:3.2.1"
-    "@types/jest": "npm:29.5.8"
-    "@typescript-eslint/eslint-plugin": "npm:6.19.0"
-    "@typescript-eslint/typescript-estree": "npm:6.19.0"
-    "@typescript-eslint/visitor-keys": "npm:6.19.0"
-    acorn: "npm:8.11.3"
-    acorn-jsx: "npm:5.3.2"
-    angular-estree-parser: "npm:9.0.0"
-    angular-html-parser: "npm:5.2.0"
-    benchmark: "npm:2.1.4"
-    browserslist: "npm:4.22.3"
-    browserslist-to-esbuild: "npm:2.1.1"
-    c8: "npm:9.0.0"
-    camelcase: "npm:8.0.0"
-    chalk: "npm:5.3.0"
-    ci-info: "npm:4.0.0"
-    cjk-regex: "npm:3.1.0"
-    collapse-white-space: "npm:1.0.6"
-    cross-env: "npm:7.0.3"
-    cspell: "npm:8.3.2"
-    css-units-list: "npm:2.0.1"
-    dashify: "npm:2.0.0"
-    diff: "npm:5.1.0"
-    editorconfig: "npm:0.15.3"
-    emoji-regex: "npm:10.3.0"
-    enquirer: "npm:2.4.1"
-    esbuild: "npm:0.19.11"
-    esbuild-plugins-node-modules-polyfill: "npm:1.6.2"
-    esbuild-visualizer: "npm:0.6.0"
-    escape-string-regexp: "npm:5.0.0"
-    eslint: "npm:8.56.0"
-    eslint-config-prettier: "npm:9.1.0"
-    eslint-formatter-friendly: "npm:7.0.0"
-    eslint-plugin-compat: "npm:4.2.0"
-    eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-jest: "npm:27.6.1"
-    eslint-plugin-n: "npm:16.6.1"
-    eslint-plugin-react: "npm:7.33.2"
-    eslint-plugin-regexp: "npm:2.1.2"
-    eslint-plugin-simple-import-sort: "npm:10.0.0"
-    eslint-plugin-unicorn: "npm:50.0.1"
-    esm-utils: "npm:4.2.1"
-    espree: "npm:10.0.0"
-    execa: "npm:7.2.0"
-    fast-glob: "npm:3.3.2"
-    fast-json-stable-stringify: "npm:2.1.0"
-    file-entry-cache: "npm:7.0.2"
-    find-cache-dir: "npm:5.0.0"
-    flow-parser: "npm:0.226.0"
-    get-east-asian-width: "npm:1.2.0"
-    get-stdin: "npm:9.0.0"
-    graphql: "npm:16.8.1"
-    hermes-parser: "npm:0.18.2"
-    html-element-attributes: "npm:3.3.0"
-    html-tag-names: "npm:2.1.0"
-    html-ua-styles: "npm:0.0.3"
-    ignore: "npm:5.3.0"
-    import-meta-resolve: "npm:4.0.0"
-    iterate-directory-up: "npm:1.1.1"
-    jest: "npm:30.0.0-alpha.2"
-    jest-docblock: "npm:29.7.0"
-    jest-light-runner: "npm:0.6.0"
-    jest-snapshot-serializer-ansi: "npm:2.1.0"
-    jest-snapshot-serializer-raw: "npm:2.0.0"
-    jest-watch-typeahead: "npm:2.2.2"
-    js-yaml: "npm:4.1.0"
-    json5: "npm:2.2.3"
-    leven: "npm:4.0.0"
-    lines-and-columns: "npm:2.0.4"
-    linguist-languages: "npm:7.27.0"
-    magic-string: "npm:0.30.5"
-    meriyah: "npm:4.3.9"
-    micromatch: "npm:4.0.5"
-    minimist: "npm:1.2.8"
-    n-readlines: "npm:1.0.1"
-    npm-run-all2: "npm:6.1.1"
-    outdent: "npm:0.8.0"
-    parse-json: "npm:8.1.0"
-    please-upgrade-node: "npm:3.2.0"
-    postcss: "npm:8.4.33"
-    postcss-less: "npm:6.0.0"
-    postcss-media-query-parser: "npm:0.2.3"
-    postcss-scss: "npm:4.0.9"
-    postcss-selector-parser: "npm:2.2.3"
-    postcss-values-parser: "npm:2.0.1"
-    prettier: "npm:3.2.4"
-    pretty-bytes: "npm:6.1.1"
-    regexp-util: "npm:2.0.0"
-    remark-footnotes: "npm:2.0.0"
-    remark-math: "npm:3.0.1"
-    remark-parse: "npm:8.0.3"
-    rollup-plugin-license: "npm:3.2.0"
-    sdbm: "npm:2.0.0"
-    semver: "npm:7.5.4"
-    serialize-javascript: "npm:6.0.2"
-    snapshot-diff: "npm:0.10.0"
-    strip-ansi: "npm:7.1.0"
-    tempy: "npm:3.1.0"
-    to-fast-properties: "npm:4.0.0"
-    ts-expect: "npm:1.3.0"
-    typescript: "npm:5.3.3"
-    unicode-regex: "npm:4.0.0"
-    unified: "npm:9.2.2"
-    url-or-path: "npm:2.3.0"
-    vnopts: "npm:2.0.0"
-    wcwidth.js: "npm:1.1.2"
-    yaml-unist-parser: "npm:2.0.1"
+    "@angular/compiler": 17.0.2
+    "@babel/code-frame": 7.23.5
+    "@babel/generator": 7.23.6
+    "@babel/parser": 7.23.9
+    "@babel/types": 7.23.9
+    "@eslint/eslintrc": 3.0.0
+    "@eslint/js": 8.56.0
+    "@glimmer/reference": 0.87.1
+    "@glimmer/syntax": 0.87.1
+    "@iarna/toml": 2.2.5
+    "@prettier/is-es5-identifier-name": 0.2.0
+    "@prettier/parse-srcset": 3.1.0
+    "@stylistic/eslint-plugin-js": 1.5.3
+    "@types/eslint__js": 8.42.3
+    "@types/estree": 1.0.5
+    "@types/file-entry-cache": 5.0.4
+    "@types/find-cache-dir": 3.2.1
+    "@types/jest": 29.5.8
+    "@typescript-eslint/eslint-plugin": 6.19.0
+    "@typescript-eslint/typescript-estree": 6.19.0
+    "@typescript-eslint/visitor-keys": 6.19.0
+    acorn: 8.11.3
+    acorn-jsx: 5.3.2
+    angular-estree-parser: 9.0.0
+    angular-html-parser: 5.2.0
+    benchmark: 2.1.4
+    browserslist: 4.22.3
+    browserslist-to-esbuild: 2.1.1
+    c8: 9.0.0
+    camelcase: 8.0.0
+    chalk: 5.3.0
+    ci-info: 4.0.0
+    cjk-regex: 3.1.0
+    collapse-white-space: 1.0.6
+    cross-env: 7.0.3
+    cspell: 8.3.2
+    css-units-list: 2.0.1
+    dashify: 2.0.0
+    diff: 5.1.0
+    editorconfig: 0.15.3
+    emoji-regex: 10.3.0
+    enquirer: 2.4.1
+    esbuild: 0.19.11
+    esbuild-plugins-node-modules-polyfill: 1.6.2
+    esbuild-visualizer: 0.6.0
+    escape-string-regexp: 5.0.0
+    eslint: 8.56.0
+    eslint-config-prettier: 9.1.0
+    eslint-formatter-friendly: 7.0.0
+    eslint-plugin-compat: 4.2.0
+    eslint-plugin-import: 2.29.1
+    eslint-plugin-jest: 27.6.1
+    eslint-plugin-n: 16.6.1
+    eslint-plugin-react: 7.33.2
+    eslint-plugin-regexp: 2.1.2
+    eslint-plugin-simple-import-sort: 10.0.0
+    eslint-plugin-unicorn: 50.0.1
+    esm-utils: 4.2.1
+    espree: 10.0.0
+    execa: 7.2.0
+    fast-glob: 3.3.2
+    fast-json-stable-stringify: 2.1.0
+    file-entry-cache: 7.0.2
+    find-cache-dir: 5.0.0
+    flow-parser: 0.226.0
+    get-east-asian-width: 1.2.0
+    get-stdin: 9.0.0
+    graphql: 16.8.1
+    hermes-parser: 0.18.2
+    html-element-attributes: 3.3.0
+    html-tag-names: 2.1.0
+    html-ua-styles: 0.0.3
+    ignore: 5.3.0
+    import-meta-resolve: 4.0.0
+    iterate-directory-up: 1.1.1
+    jest: 30.0.0-alpha.2
+    jest-docblock: 29.7.0
+    jest-light-runner: 0.6.0
+    jest-snapshot-serializer-ansi: 2.1.0
+    jest-snapshot-serializer-raw: 2.0.0
+    jest-watch-typeahead: 2.2.2
+    js-yaml: 4.1.0
+    json5: 2.2.3
+    leven: 4.0.0
+    lines-and-columns: 2.0.4
+    linguist-languages: 7.27.0
+    magic-string: 0.30.5
+    meriyah: 4.3.9
+    micromatch: 4.0.5
+    minimist: 1.2.8
+    n-readlines: 1.0.3
+    npm-run-all2: 6.1.1
+    outdent: 0.8.0
+    parse-json: 8.1.0
+    please-upgrade-node: 3.2.0
+    postcss: 8.4.33
+    postcss-less: 6.0.0
+    postcss-media-query-parser: 0.2.3
+    postcss-scss: 4.0.9
+    postcss-selector-parser: 2.2.3
+    postcss-values-parser: 2.0.1
+    prettier: 3.2.4
+    pretty-bytes: 6.1.1
+    regexp-util: 2.0.0
+    remark-footnotes: 2.0.0
+    remark-math: 3.0.1
+    remark-parse: 8.0.3
+    rollup-plugin-license: 3.2.0
+    sdbm: 2.0.0
+    semver: 7.5.4
+    serialize-javascript: 6.0.2
+    snapshot-diff: 0.10.0
+    strip-ansi: 7.1.0
+    tempy: 3.1.0
+    to-fast-properties: 4.0.0
+    ts-expect: 1.3.0
+    typescript: 5.3.3
+    unicode-regex: 4.0.0
+    unified: 9.2.2
+    url-or-path: 2.3.0
+    vnopts: 2.0.0
+    wcwidth.js: 1.1.2
+    yaml-unist-parser: 2.0.1
   bin:
     prettier: ./bin/prettier.cjs
   languageName: unknown
@@ -7840,29 +7840,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.2#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: f345cd37f56a2c0275e3fe062517c650bb673815d885e7507566df589375d165bbbf4bdb6aa95600a9bc55f4744b81f452b5a63f95b9f10a72787dba3c90890a
+  checksum: 8/5479b7d431cacd5185f8db64bfcb7286ae5e31eb299f4c4f404ad8aa6098b77599563ac4257cb2c37a42f59dfc06a1bec2bcf283bb448f319e37f0feb9a09847
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^2.0.0-next.4#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.5
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 05fa778de9d0347c8b889eb7a18f1f06bf0f801b0eb4610b4871a4b2f22e220900cf0ad525e94f990bb8d8921c07754ab2122c0c225ab4cdcea98f36e64fa4c2
+  checksum: 8/064d09c1808d0c51b3d90b5d27e198e6d0c5dad0eb57065fd40803d6a20553e5398b07f76739d69cbabc12547058bec6b32106ea66622375fb0d7e8fca6a846c
   languageName: node
   linkType: hard
 
@@ -8828,13 +8828,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@5.3.3#~builtin<compat/typescript>":
   version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=d73830"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c93786fcc9a70718ba1e3819bab56064ead5817004d1b8186f8ca66165f3a2d0100fee91fa64c840dcd45f994ca5d615d8e1f566d39a7470fc1e014dbb4cf15d
+  checksum: 8/f61375590b3162599f0f0d5b8737877ac0a7bc52761dbb585d67e7b8753a3a4c42d9a554c4cc929f591ffcf3a2b0602f65ae3ce74714fd5652623a816862b610
   languageName: node
   linkType: hard
 
